@@ -1,0 +1,13 @@
+StandAlone App (SA)
+- Console based SA
+- Desktop based SA
+
+RemoteBased App
+- Web App (cannot be distributed)
+- Distributed App (can be web)
+
+Mobile App
+
+
+
+

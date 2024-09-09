@@ -1,0 +1,43 @@
+/* body{
+    height: 100%;
+    width: 100%;
+    font-size: 90;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.target{
+    display: flex;
+    flex-direction: column;
+    background-color: cyan;
+    width: 40%;
+    margin: auto;
+    gap: 10px;
+}
+input{
+    width: 45%;
+}
+#button{
+    width: 70px;
+    margin: auto;
+} */
+
+h1{
+    color: white;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(30, 30, 135);
+}
+form{
+    background-color: rgb(78, 176, 176);
+    width: 25%;
+    padding: 2%;
+    border-radius: 10px;
+}
+#button{
+    text-align: center;
+}

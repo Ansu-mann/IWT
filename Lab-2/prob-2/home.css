@@ -1,0 +1,14 @@
+.image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: black; */
+    z-index: 1;
+}
+img{
+    width: 74%;
+    margin: 1%;
+    /* padding-top: 10px; */
+    border-radius: 90px;
+    background-color: black;
+}

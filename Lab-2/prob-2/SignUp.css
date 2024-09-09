@@ -1,0 +1,98 @@
+main {
+    height: 100%;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    background-image: url("./assets/young-college-students-sitting-in-classroom-and-listening-to-unseen-teacher.jpg");
+    /* object-fit: cover; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: auto auto;
+    margin-top: 9%;
+    padding-bottom: 8%;
+    border-radius: 20px;
+    /* opacity: 0.5; */
+}
+
+.box {
+    background-color: rgba(3, 14, 33, 0.846);
+    width: 420px;
+    height: 365px;
+    border: 1px solid black;
+    margin-top: 13%;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 40px;
+    gap: 15px;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+input {
+    width: 70%;
+    height: 40%;
+    border-radius: 16px;
+    padding-left: 10px;
+}
+
+button {
+    width: 70%;
+    height: 40%;
+    border-radius: 16px;
+    padding-left: 10px;
+    /* display: ; */
+    text-align: center;
+}
+
+.text {
+    color: white;
+    font-size: 45px;
+}
+
+/* .text {
+    background-color: pink;
+} */
+
+.ipBox {
+    gap: 11px;
+    height: 76%;
+    width: 100%;
+    /* background-color: green; */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    /* padding-top: 20px; */
+}
+
+.button {
+    width: 100%;
+    height: 20%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.subBut {
+    width: 30%;
+    height: 80%;
+    text-align: center;
+    background-color: rgb(3, 107, 107);
+    color: white;
+    /* background-color: rgb(202, 138, 55); */
+}
+
+.new {
+    font-size: larger;
+    color: rgb(3, 14, 33);
+    /* background-color: green; */
+}
+.navOpt{
+    background-color: cyan;
+}

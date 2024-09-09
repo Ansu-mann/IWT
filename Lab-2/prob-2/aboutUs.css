@@ -1,0 +1,88 @@
+main {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.box {
+    background-color: rgba(3, 14, 33, 0.708);
+    width: 600px;
+    height: 635px;
+    border: 1px solid black;
+    margin-top: 8%;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 40px;
+    gap: 6px;
+    align-items: center;
+    padding: 1% 3% 3% 3%;
+}
+
+input {
+    width: 70%;
+    height: 29%;
+    border-radius: 16px;
+    padding-left: 10px;
+}
+button {
+    width: 70%;
+    height: 29%;
+    border-radius: 16px;
+    padding-left: 10px;
+    color: black;
+}
+
+.text {
+    color: white;
+    font-size: 45px;
+}
+
+/* .text {
+    background-color: pink;
+} */
+
+.ipBox {
+    gap: 21px;
+    height: 50%;
+    width: 100%;
+    /* background-color: green; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* padding-top: 20px; */
+}
+
+.button {
+    width: 100%;
+    height: 20%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.subBut {
+    width: 30%;
+    height: 80%;
+    text-align: center;
+    /* background-color: rgb(202, 138, 55); */
+}
+
+.new {
+    font-size: larger;
+    color: rgb(3, 14, 33);
+    /* background-color: green; */
+}
+
+h1, h2, h3{
+    color: white;
+}
+h3{
+    width: 87%;
+    text-align: center;
+}
