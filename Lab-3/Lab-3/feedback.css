@@ -1,0 +1,91 @@
+h1{
+    color: black;
+}
+.container{
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* background-color: green; */
+}
+form{
+    background-color: rgba(15, 8, 8, 0.92);
+    width: 25%;
+    padding: 2%;
+    border-radius: 10px;
+    height: 100%;
+    color: white;
+    font-size: 16px;
+}
+#button{
+    text-align: center;
+}
+.ipfield{
+    width: 100%;
+    height: 40%;
+    text-align: start;
+    padding: 5px 3px;
+}
+.typee{
+    width: 250px;
+    height: 25px;
+}
+.buttt{
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.subut{
+    background-color: rgb(85, 60, 60);
+    width: 80px;
+    height: 35px;
+    border-radius: 20px;
+    color: white;
+}
+footer{
+    margin: 0;
+    position: relative;
+    top: 8vh;
+    background-color: rgba(15, 8, 8, 0.92);
+    height: 27vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    /* z-index: 10000; */
+}
+.foot{
+    background-color: rgba(128, 128, 128, 0.354);
+    /* padding: 20px; */
+    width: 60%;
+    height: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    padding: 0;
+    border-radius: 20px;
+}
+.feed{
+    background-color: rgb(216, 58, 58);
+    width: 20%;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 20px;
+    margin-top: 15px;
+    /* border: none; */
+}
+.textip{
+    width: 50%;
+    border-radius: 10px;
+    padding: 13px 5px;
+}
+.info{
+    /* background-color: pink; */
+    display: flex;
+    gap: 180px;
+    margin: 0;
+}

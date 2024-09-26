@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background-color: green;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 29px;
+    padding: 15px 30px;
+    background-color: rgba(15, 8, 8, 0.92);
+    color: white;
+    position: sticky;
+    top: 0px;
+    z-index: 1000;
+
+}
+.navBar{
+    display: flex;
+    gap: 50px;
+    
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.logoIcon{
+    height: 89px;
+    display: flex;
+    align-items: center;
+}
+.present{
+    background-color: white;
+    color: black;
+    padding: 16px 18px;
+    border-radius: 20px;
+}
+

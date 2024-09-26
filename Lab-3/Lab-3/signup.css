@@ -1,0 +1,146 @@
+main {
+    /* background-color: green; */
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto 5.5% auto;
+    border-radius: 20px;
+    position: relative;
+    left: 96px;
+    bottom: 26px;
+}
+
+.box {
+    background-color: rgba(15, 8, 8, 0.92);
+    width: 420px;
+    height: 365px;
+    border: 1px solid black;
+    /* margin-top: 13%; */
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 40px;
+    gap: 15px;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+input {
+    width: 70%;
+    height: 40%;
+    border-radius: 16px;
+    padding-left: 10px;
+}
+
+button {
+    width: 70%;
+    height: 40%;
+    border-radius: 16px;
+    padding-left: 10px;
+    /* display: ; */
+    text-align: center;
+}
+
+.text {
+    color: white;
+    font-size: 45px;
+}
+
+/* .text {
+    background-color: pink;
+} */
+
+.ipBox {
+    gap: 11px;
+    height: 76%;
+    width: 100%;
+    /* background-color: green; */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    /* padding-top: 20px; */
+}
+
+.button {
+    width: 100%;
+    height: 20%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.subBut {
+    width: 30%;
+    height: 80%;
+    text-align: center;
+    background-color: rgb(3, 107, 107);
+    color: white;
+    /* background-color: rgb(202, 138, 55); */
+}
+
+.new {
+    font-size: larger;
+    color: rgb(3, 14, 33);
+    /* background-color: green; */
+}
+.navOpt{
+    background-color: cyan;
+}
+.cintent{
+    position: relative;
+    z-index: 2;
+}
+.imagee{
+    width: 50%;
+    position: relative;
+    z-index: 1;
+    right: 320px;
+}
+footer{
+    margin: 0;
+    position: relative;
+    /* top: -2vh; */
+    background-color: rgba(15, 8, 8, 0.92);
+    height: 27vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    /* z-index: 10000; */
+}
+.foot{
+    background-color: rgba(128, 128, 128, 0.354);
+    /* padding: 20px; */
+    width: 60%;
+    height: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    padding: 0;
+    border-radius: 20px;
+}
+.feed{
+    background-color: rgb(216, 58, 58);
+    width: 20%;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 20px;
+    margin-top: 15px;
+    /* border: none; */
+}
+.textip{
+    width: 50%;
+    border-radius: 10px;
+    padding: 13px 5px;
+}
+.info{
+    /* background-color: pink; */
+    display: flex;
+    gap: 180px;
+    margin: 0;
+}
